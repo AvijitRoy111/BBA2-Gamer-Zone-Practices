@@ -1,0 +1,13 @@
+/* common Styles */
+
+
+
+/* Header section Styles */
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
