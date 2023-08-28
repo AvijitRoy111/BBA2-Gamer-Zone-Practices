@@ -89,6 +89,8 @@ body{
 }
 /* banner section styles */
 .banner{
+    width: 100%;
+    height: 700px;
     display: flex;
 }
 
@@ -103,8 +105,8 @@ body{
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 80px;
-    padding-top: 60px;
+    padding-left: 170px;
+    padding-top: 120px;
     margin-bottom: 0px;
 }
 .container-name{
@@ -115,7 +117,7 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 80px;
+    padding-left: 170px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -126,7 +128,7 @@ body{
     color: #534C64;
     font-size: 10px;
     font-weight: 500;
-    padding-left: 38px;
+    padding-left:120px;
     margin-top: 15px;
 }
 
@@ -144,7 +146,7 @@ body{
     border-radius: 48px;
     border: none;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    margin-left: 80px;
+    margin-left: 160px;
     margin-top: 30px;
 }
 .btn-second{
@@ -160,21 +162,26 @@ body{
     margin-left: 40px;
     margin-top: 30px;
 }
-
+.banner-content img{
+    padding-right: 60px;
+    padding-top: 18px;
+}
 /* content section styles */
 .content{
-    display: flex;
+    width:100%;
+    height: 600px;
+    display:flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .content-image img{
-    width: 868px;
-    height: 489px;
-    padding-left: 155px;
+    width: 840px;
+    height: 470px;
+    padding-left: 40px;
     padding-top: 60px;
 }
 .content-content{
-    margin-right: 150px;
+    margin-right: 100px;
 }
 .content-content-title{
     text-align: right;
@@ -184,6 +191,8 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-top: 45px;
+    margin-bottom: 0px;
 }
 .content-content-description{
     color: #534C64;
@@ -191,10 +200,11 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-left: 75px;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 #btn-know{
-    margin-left: 380px;
+    margin-left: 370px;
 }
 .Our-purpose{
     color: #534C64;
@@ -205,19 +215,22 @@ body{
     margin-left: 400px;
 }
 .unleash{
-    color: #534C64;
+    color:#2b2241;
     text-align: right;
     font-size: 24px;
     font-weight: 500;
     line-height: 45px; 
-    margin-left: 200px;
+    margin-left: 165px;
 }
 
 /* Funny games Styles */
+.funny-games{
+    width:100%;
+    height: 720px;
+}
 .games-card{
     display: flex;
-    padding-left: 115px;
-    gap: 50px;
+    padding-left: 120px;
 }
 .funny-games-title{
     color: #0B0223;
@@ -247,11 +260,12 @@ body{
     margin-bottom: 40px;
 }
 .games-image{
-    width: 342px;
-    height: 400px;
+    width: 310px;
+    height: 360px;
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     gap: 30px;
+    margin-bottom: 0px;
 }
 .games-title{
     width: 342px;
@@ -260,22 +274,28 @@ body{
     font-weight: 500;
     line-height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 /* post container styles */
 .post-container{
+    width:100%;
+    height: 800px;
     display: flex;
-    padding-left: 310px;
-    margin-top: 160px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.post-container-content{
+   width: 680px;
 }
 .post-container-title{
-    text-align: center;
+    text-align:right;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
     padding-top: 120px;
     padding-right: 120px;
+    margin-bottom: 0px;
 }
 .post-container-title span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -285,40 +305,40 @@ body{
 }
 .post-container-description{
     color: #534C64;
-    text-align:center;
+    text-align:right;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    width: 470px;
+    width: 550px;
     padding-top: 0px;
-    margin-right: 90px;
 }
 .post-img{
     width: 634.833px;
     height: 650px;
     border-radius: 8px;
-    padding-left: 110px;
+    padding-right: 115px;
+
 }
 .post-small-img{
     width: 318.10;
     height: 365.083px;
     position:relative ;
-    bottom: 250px;
-    right: 15px;
-
+    bottom: 245px;
+    right: 150px;
 }
+
 /* feature section styles */
 .feature{
-    height: 850px;
+    height: 800px;
     display: flex;
-    padding-left: 220px;
-    margin-top: 20px;
+    padding-left: 120px;
+    margin-top: 100px;
 }
 .feature-img{
     width: 634.833px;
     height: 650px;
     border-radius: 8px;
-    padding-right: 280px;
+    padding-right: 270px;
 }
 .feature-small-img{
     width: 318.5px;
@@ -332,8 +352,8 @@ body{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
-    padding-top: 120px;
-    padding-right: 120px;
+    padding-top: 170px;
+    padding-right: 110px;
     margin-bottom: 0px;
 }
 .feature-container-title span{
@@ -421,7 +441,7 @@ body{
     margin-top: 40px;
 }
 .fact-container img{
-    width: 990px;
+    width: 805px;
     height: 821px;
 }
 
@@ -432,7 +452,7 @@ body{
 }
 .sponcer-part-1{
     display: flex;
-    padding-left: 210px;
+    padding-left: 135px;
     gap: 30px;
 }
 .sponcer-code{
@@ -460,13 +480,12 @@ body{
 }
 .sponcer-part-2{
     display: flex;
-    padding-left: 350px;
+    padding-left: 240px;
     gap: 30px;
     padding-top: 0px;}
 
 /* footer section styles */
 .footer{
-    width:100%;
     height: 636px;
     background: #0B0223;
 }
@@ -479,7 +498,7 @@ body{
     width: 86.041px;
     height: 40px;
     padding-top: 120px;
-    padding-left: 765px;
+    padding-left: 655px;
     margin-bottom: 0px;
 }
 .footer-title{
@@ -499,7 +518,7 @@ body{
 }
 .footer-option{
     display: flex;
-    padding-left: 375px;
+    padding-left: 275px;
 
     
 }
@@ -514,7 +533,7 @@ body{
 }
 .footer-icon>ul{
     display: flex;
-    padding-left: 530px;
+    padding-left: 430px;
     padding-top: 60px;
     margin-bottom: 0px;
 }
@@ -531,7 +550,7 @@ body{
 }
 .footer-policy{
     display: flex;
-    padding-left: 420px;
+    padding-left: 310px;
     padding-top: 20px;
     margin-bottom: 0px;
 }
@@ -541,9 +560,6 @@ body{
     font-size: 16px;
     font-weight: 500;
     padding-left: 90px;
-}
-.footer-date{
-
 }
 .footer-date{
     color: rgba(255, 255, 255, 0.60);
